@@ -1,9 +1,5 @@
 """
 Its Flappy Bird, But an AI plays it using Neuroevolution of Augmenting Topologies and Masked Pixel Precision Accuracy.
-Programmer: Yashwardhan Deshmukh
-github.com/yaashwardhan
-yaashwardhan.me
-
 Approach: Programming Flappy Bird Classes --> Implementing Physics and Death Mechanics --> Implementing Pixel Precision Collision Accuracy and Mechanics --> Implementing a Neural Network using N.E.A.T --> Breeding 14 Birds every generation until a certain fitness threshold (1000 here) is obtained
 """
 
@@ -367,6 +363,3 @@ if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
     config_path = os.path.join(local_dir, "assets/flappy-config.txt")
     run(config_path)
-
-
-# Thank you! If you liked this project, you could show me support by following me or starring my repos --> github.com/yaashwardhan
